@@ -1,18 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import MainHeader from "./components/layout/MainHeader"
+import MainFooter from "./components/layout/MainFooter"
+import Home from "./pages/Home";
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = ()=> {
   return (
-    <>
-      <div>
-        <h1 className='text-9xl'>hiii</h1>
-      </div>
-    </>
+    <div className="layout flex flex-col min-h-screen bg-primary/50">
+      <MainHeader/>
+      <main className="flex-1">
+     <Home/>
+
+      </main>
+      <MainFooter/>
+    </div>
+
   )
 }
 
-export default App
+export default App;
