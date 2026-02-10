@@ -5,7 +5,7 @@ const Testimonials = ()=>{
         <section className="flex flex-col  md:flex-col lg:flex-row gap-10 my-20">
             <div className="basis-1/2 ">
                 <img src={image2} alt="iimage 2" 
-                className="w-[600px] h-[500px] md:w-[740px] md:h-[700px] lg:w-[500px] lg:h-[580px]"/>
+                className="w-[600px] h-[500px] md:w-[740px] md:h-[700px] lg:w-[500px] lg:h-[580px] my-10"/>
             </div>
             <div className="flex flex-col gap-16 basis-1/2 justify-center px-4  py-6 lg:px-10">
                 <p className="text-accent4 text-4xl font-medium font-crimson_text  py-2 tracking-[-0.04em]">

@@ -14,6 +14,7 @@ const CTA = ()=>{
             link ="#contact"
                bgColor="bg-accent1"
                textColor="text-primary"
+               
 
              />
              </div>

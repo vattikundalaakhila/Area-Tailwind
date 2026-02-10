@@ -22,7 +22,7 @@ const Comparision = [
     {
         area: {available: true, text: "Advanced AI insights"},
         websurge: {available: false, text: "Basic AI insights"},
-        hyperview: {available: false}, text: "No AI assistance"
+        hyperview: {available: false, text: "No AI assistance"}
 
     }, 
 

@@ -8,6 +8,7 @@ import { Features } from "tailwindcss";
 import Features1 from "../components/home/Features1";
 import Testimonials from "../components/home/Testimonials";
 import Success from "../components/home/Success";
+import Specifications from "../components/home/Specifications";
 import Icons from "../components/home/Icons";
 
 const Home = ()=>{
@@ -19,9 +20,11 @@ const Home = ()=>{
             <Icons/>
             <HeroImage/>
             <Features1/>
+            <Specifications/>
             <Testimonials/>
-            <HeroImage2/>
+            
             <Success/>
+            <HeroImage2/>
             
             <CTA/>
             

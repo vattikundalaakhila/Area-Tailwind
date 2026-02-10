@@ -22,7 +22,7 @@ const data = [
 ];
 const Features1 = () => {
     return (
-        <section className="flex  flex-col px-10 lg:flex-row gap-6 mt-20">
+        <section className="flex  flex-col px-10 lg:flex-row gap-6 my-30">
             <div className="flex flex-col gap-8 basis-1/2">
 
                 <h2 className="text-bold font-medium font-crimson_text text-accent4 text-5xl">See the Big Picture</h2>
@@ -32,13 +32,13 @@ const Features1 = () => {
 
                 <div>
                     <hr className="text-text mb-6"/>
-                    <div className="flex  flex-col gap-10 ">
+                    <div className="flex  flex-col gap-8 ">
                         {data.map((item,index) => {
                             return (
 
                                 <div 
                                     key={item.index} >
-                                        <div className="flex   gap-8">
+                                        <div className="flex   gap-6">
                                             
                                     
                                     <p className="text-sm text-text font-dm_sans">{item.id}</p>
@@ -58,14 +58,14 @@ const Features1 = () => {
                 </div>
             <Button text="Discover More"
             textColor="accent4"
-            bgColor="accent2"
+            bgColor="bg-accent2"
             link="#contact"/>
 
             </div>
 
             <div className="basis-1/2  flex justify-center items-center">
                 <img src={image} alt="image"
-                className= "flex  w-[340px] h-[440px] md:w-[720px] md:h-[750px] lg:w-[440px] lg:h-[640px]" />
+                className= "flex  w-[340px] h-[440px] md:w-[720px] md:h-[750px] lg:w-[440px] lg:h-[600px]" />
             </div>
 
         </section>

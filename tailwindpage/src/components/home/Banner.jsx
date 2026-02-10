@@ -3,7 +3,7 @@ import Iphone from "../../assets/Iphone.png";
 
 const Banner = ()=> {
     return (
-       <section>
+       <section className="py-10">
         <div className="flex flex-col justify-center items-center">
             <h1 className="text-6xl sm:text-8xl text-bold font-crimson_text  text-center">Browse Everything.</h1>
         </div>

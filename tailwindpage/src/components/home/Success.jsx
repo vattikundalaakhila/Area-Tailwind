@@ -28,7 +28,9 @@ const Success = ()=>{
                 <Button 
               
 
-                text="Discover More"/>
+                text="Discover More"
+                textColor="text-accent4"
+                bgColor="bg-accent2"/>
                   </div>
             </div>
             <div className="flex gap-10">
