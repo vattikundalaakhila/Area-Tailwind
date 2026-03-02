@@ -54,11 +54,11 @@ src/
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/vattikundalaakhila/Area-Tailwind.git
 
 2. Navigate into the project folder:
 
-cd your-repo-name
+cd tailwindpage
 
 3. Install dependencies:
 
