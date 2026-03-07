@@ -1,4 +1,4 @@
-import Menu from "../../data/menu" 
+import Menu from "../../data/Menu" 
 import logo from "../../assets/logos/personLogo.png"
 
 const MainFooter = ()=>{
