@@ -1,4 +1,4 @@
-const menu = [
+const Menu = [
     {id: 1, 
         title: "Benefits",
         link: "#benefits"
@@ -22,4 +22,4 @@ const menu = [
 
 ];
 
-export default menu;
+export default Menu;

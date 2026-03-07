@@ -1,4 +1,4 @@
-import menu from "../../data/menu";
+import Menu from "../../data/Menu";
 import Button from "../common/Button";
 
 const MainHeader = () =>{
@@ -10,7 +10,7 @@ const MainHeader = () =>{
 
             <nav className="hidden sm:block">
                 <ul className=" flex gap-4 font-bold text-sm">
-                    { menu.map(
+                    { Menu.map(
                         (item)=> {
                             return(
                             <li key= {item.id}>
