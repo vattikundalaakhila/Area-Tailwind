@@ -1,5 +1,4 @@
-import React from "react";
-import menu from "../../data/Menu";
+import Menu from "../../data/menu" 
 import logo from "../../assets/logos/personLogo.png"
 
 const MainFooter = ()=>{
@@ -9,7 +8,7 @@ const MainFooter = ()=>{
             <div className="flex flex-col gap-20 my-10">
         <nav>
             <ul className="flex flex-col gap-4 font-bold text-sm sm:flex-row">
-        {menu.map((item)=>{
+        {Menu.map((item)=>{
             return(
                 <li key= {item.id}>
                     <a href={item.link}>{item.title}</a>
