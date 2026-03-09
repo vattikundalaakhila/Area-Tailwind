@@ -9,7 +9,7 @@ const MainHeader = () =>{
             </div>
 
             <nav className="hidden sm:block">
-                <ul className=" flex gap-4 font-bold text-sm">
+                <ul className=" flex    gap-6 font-bold text-sm">
                     { Menu.map(
                         (item)=> {
                             return(
