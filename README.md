@@ -7,7 +7,7 @@ This project demonstrates a clean UI layout using Tailwind's utility-first appro
 ---
 
 ## 🚀 Live Demo
-(Add your deployed link here if available)
+https://area-ak.netlify.app/
 
 ---
 
